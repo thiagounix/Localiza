@@ -13,8 +13,8 @@ namespace Localiza
         {
             bool bPrimo = true;
             int fator = numero / 2;
-            int i = 0;
-            for (i = 2; i <= fator; i++)
+           
+            for (int i = 2; i <= fator; i++)
             {
                 if ((numero % i) == 0)
                     bPrimo = false;

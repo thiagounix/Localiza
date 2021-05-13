@@ -9,7 +9,7 @@ namespace Localiza
        static void Main(string[] args)
         {
             Console.Write("Digite um número: ");
-            var num = Convert.ToInt32(Console.ReadLine());
+            var num = Convert.ToInt32(Console.ReadLine()); 
             Console.Clear();
             ArrayList vetor = new();
             
